@@ -38,7 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               var s1 = document.createElement("script");
               var s0 = document.getElementsByTagName("script")[0];
               s1.async = true;
-              s1.src = "https://embed.tawk.to/6ab5797a83e52934410454c7/1k3ae5271";
+              s1.src = "https://embed.tawk.to/6af86186761b0e3c42475394/1k7d3ptqj";
               s1.charset = "UTF-8";
               s1.setAttribute("crossorigin", "*");
               s0.parentNode.insertBefore(s1, s0);
