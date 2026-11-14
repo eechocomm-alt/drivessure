@@ -9,7 +9,7 @@ export function Footer() {
             <Link className="inline-flex items-center shrink-0" href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                alt="AuthorizeCheck"
+                alt="drivessure"
                 className="h-11 sm:h-12 w-auto max-w-[220px] object-contain object-left"
                 src="/logo.png"
               />
@@ -88,9 +88,9 @@ export function Footer() {
               <li>
                 <a
                   className="hover:text-on-surface transition-colors"
-                  href="mailto:support@authorizecheck.co.uk"
+                  href="mailto:support@drivessure.co.uk"
                 >
-                  support@authorizecheck.co.uk
+                  support@drivessure.co.uk
                 </a>
               </li>
               <li className="font-body-sm text-body-sm text-on-surface-variant">
@@ -171,7 +171,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-space-lg text-center font-body-sm text-body-sm text-on-surface-variant">
-          © 2025 AuthorizeCheck Ltd. Registered in England &amp; Wales. All
+          © 2025 drivessure Ltd. Registered in England &amp; Wales. All
           rights reserved.
         </div>
       </div>

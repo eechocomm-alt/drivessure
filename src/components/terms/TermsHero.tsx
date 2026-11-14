@@ -52,7 +52,7 @@ export function TermsHero() {
               </h1>
               <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
                 These terms establish the binding contractual framework between
-                yourself and AuthorizeCheck Ltd regarding vehicle intelligence
+                yourself and drivessure Ltd regarding vehicle intelligence
                 checks, MIAFTR insurance total-loss lookups, finance registers,
                 and our £40,000 data indemnity guarantee.
               </p>

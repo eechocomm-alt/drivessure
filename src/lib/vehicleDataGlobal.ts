@@ -552,7 +552,7 @@ export async function fetchVehicleData(vrm: string): Promise<VehicleReportData> 
       {
         Accept: "application/json",
         Authorization: `Bearer ${apiKey}`,
-        "User-Agent": "AuthorizeCheck-VehicleData/1.0",
+        "User-Agent": "drivessure-VehicleData/1.0",
       },
       15000
     );

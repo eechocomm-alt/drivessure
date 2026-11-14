@@ -43,7 +43,7 @@ export function generateCustomerPaymentEmailHtml(params: CustomerPaymentEmailPar
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Payment Confirmed — AuthorizeCheck Report for ${safeVrm}</title>
+  <title>Payment Confirmed — drivessure Report for ${safeVrm}</title>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f0f4f9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #0b1c30; -webkit-font-smoothing: antialiased; line-height: 1.5;">
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f0f4f9; padding: 32px 12px;">
@@ -287,13 +287,13 @@ export function generateCustomerPaymentEmailHtml(params: CustomerPaymentEmailPar
           <tr>
             <td style="background-color: #f8faff; padding: 24px 32px; border-top: 1px solid #e1e8f2; text-align: center; font-size: 11px; color: #7a8292; line-height: 1.6;">
               <p style="margin: 0 0 6px; font-weight: 600; color: #4a5262;">
-                AuthorizeCheck &bull; Leading UK Vehicle History &amp; Intelligence Platform
+                drivessure &bull; Leading UK Vehicle History &amp; Intelligence Platform
               </p>
               <p style="margin: 0 0 6px;">
-                &copy; ${currentYear} AuthorizeCheck. All rights reserved. Registered in the United Kingdom.
+                &copy; ${currentYear} drivessure. All rights reserved. Registered in the United Kingdom.
               </p>
               <p style="margin: 0; color: #9aa1b0;">
-                You received this email because you completed a vehicle history check order on authorizecheck.co.uk.
+                You received this email because you completed a vehicle history check order on drivessure.co.uk.
               </p>
             </td>
           </tr>
@@ -317,12 +317,12 @@ export function generateCustomerPaymentEmailPlainText(params: CustomerPaymentEma
     }).format(new Date());
 
   return `===============================================================
-AUTHORIZECHECK — PAYMENT CONFIRMED & ORDER RECEIVED
+drivessure — PAYMENT CONFIRMED & ORDER RECEIVED
 ===============================================================
 
 Hello ${params.customerName || "Valued Customer"},
 
-Thank you for your purchase with AuthorizeCheck!
+Thank you for your purchase with drivessure!
 Your payment of ${params.price} for the ${params.planName} has been successfully processed.
 
 ---------------------------------------------------------------
@@ -366,7 +366,7 @@ or contact support at checkauthorize@gmail.com quoting Order #${params.orderId}.
 (Tip: Please check your Spam/Junk folder if your report has not arrived within 4 hours.)
 
 ===============================================================
-(c) ${new Date().getFullYear()} AuthorizeCheck. All rights reserved.
+(c) ${new Date().getFullYear()} drivessure. All rights reserved.
 Official UK Vehicle Provenance & Intelligence Bureau
 `;
 }
@@ -386,7 +386,7 @@ export async function sendCustomerPaymentConfirmationEmail(
     try {
       const resend = new Resend(process.env.RESEND_API_KEY);
       const fromEmail =
-        process.env.RESEND_FROM_EMAIL || "AuthorizeCheck <orders@authorizecheck.co.uk>";
+        process.env.RESEND_FROM_EMAIL || "drivessure <orders@drivessure.co.uk>";
 
       const result = await resend.emails.send({
         from: fromEmail,
@@ -424,7 +424,7 @@ export async function sendCustomerPaymentConfirmationEmail(
       });
 
       const info = await transporter.sendMail({
-        from: `"AuthorizeCheck" <${gmailUser}>`,
+        from: `"drivessure" <${gmailUser}>`,
         to: customerEmail,
         replyTo: process.env.ORDER_NOTIFICATION_EMAIL || "checkauthorize@gmail.com",
         subject,

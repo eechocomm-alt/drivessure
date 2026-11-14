@@ -5,9 +5,9 @@ import { RefundSections } from "@/components/refund/RefundSections";
 import { RefundSidebar } from "@/components/refund/RefundSidebar";
 
 export const metadata: Metadata = {
-  title: "Refund Policy & Guarantee — AuthorizeCheck",
+  title: "Refund Policy & Guarantee — drivessure",
   description:
-    "AuthorizeCheck refund policy covering eligibility, exclusions, timelines, payment method refunds, and how to submit a refund claim.",
+    "drivessure refund policy covering eligibility, exclusions, timelines, payment method refunds, and how to submit a refund claim.",
 };
 
 export default function RefundPolicyPage() {

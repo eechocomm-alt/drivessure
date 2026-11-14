@@ -5,9 +5,9 @@ import { PrivacySections } from "@/components/privacy/PrivacySections";
 import { PrivacySidebar } from "@/components/privacy/PrivacySidebar";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — AuthorizeCheck",
+  title: "Privacy Policy — drivessure",
   description:
-    "AuthorizeCheck Privacy Policy covering UK GDPR, Data Protection Act 2018, data collection, cookies, security, retention, and DPO contact.",
+    "drivessure Privacy Policy covering UK GDPR, Data Protection Act 2018, data collection, cookies, security, retention, and DPO contact.",
 };
 
 export default function PrivacyPolicyPage() {

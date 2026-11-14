@@ -191,7 +191,7 @@ export function generateOrderEmailHtml(order: OrderNotificationPayload): string 
                     <ul style="margin: 0; padding-left: 20px; font-size: 12px; line-height: 1.6; color: #364764;">
                       <li><strong>Customer Volition:</strong> Confirmed purchase of own volition without pressure.</li>
                       <li><strong>Delivery Notice:</strong> Acknowledged report is delivered within 3–4 hours and is non-refundable once sent.</li>
-                      <li><strong>Legal Acceptance:</strong> Accepted AuthorizeCheck Terms &amp; Conditions and Privacy Statement.</li>
+                      <li><strong>Legal Acceptance:</strong> Accepted drivessure Terms &amp; Conditions and Privacy Statement.</li>
                     </ul>
                   </td>
                 </tr>
@@ -203,13 +203,13 @@ export function generateOrderEmailHtml(order: OrderNotificationPayload): string 
           <tr>
             <td style="background-color: #f8f9ff; padding: 24px 32px; border-top: 1px solid #e1e8f5; text-align: center;">
               <p style="margin: 0 0 6px; font-size: 12px; font-weight: 700; color: #000615;">
-                AuthorizeCheck Automated Dispatch System
+                drivessure Automated Dispatch System
               </p>
               <p style="margin: 0 0 10px; font-size: 11px; color: #75777e; line-height: 1.5;">
                 Official DVLA, National Computer &amp; MIAFTR vehicle intelligence auditing.
               </p>
               <p style="margin: 0; font-size: 10px; color: #a1a5af;">
-                &copy; ${new Date().getFullYear()} AuthorizeCheck. All rights reserved.
+                &copy; ${new Date().getFullYear()} drivessure. All rights reserved.
               </p>
             </td>
           </tr>
@@ -224,7 +224,7 @@ export function generateOrderEmailHtml(order: OrderNotificationPayload): string 
 
 export function generateOrderEmailPlainText(order: OrderNotificationPayload): string {
   return `===============================================================
-AUTHORIZECHECK — NEW VEHICLE CHECK ORDER RECEIVED
+drivessure — NEW VEHICLE CHECK ORDER RECEIVED
 ===============================================================
 
 Order Reference: #${order.orderId}
@@ -252,7 +252,7 @@ ACKNOWLEDGEMENTS & LEGAL CONSENTS:
   [X] Accepted Terms & Conditions and Privacy Statement
 
 ===============================================================
-AuthorizeCheck Automated Order System
+drivessure Automated Order System
 Recipient: checkauthorize@gmail.com
 `;
 }
@@ -269,7 +269,7 @@ export async function sendOrderEmail(payload: OrderNotificationPayload): Promise
 
   if (!gmailPass || gmailPass.trim() === "" || gmailPass.includes("your-16-character")) {
     console.error(
-      "[AuthorizeCheck Mailer Error] GMAIL_APP_PASSWORD is not configured in environment variables."
+      "[drivessure Mailer Error] GMAIL_APP_PASSWORD is not configured in environment variables."
     );
     return {
       success: false,
@@ -291,7 +291,7 @@ export async function sendOrderEmail(payload: OrderNotificationPayload): Promise
     const subject = `🚗 [New Order #${payload.orderId}] ${payload.planName} — Reg: ${vrmFormatted} (${payload.name})`;
 
     const mailOptions = {
-      from: `"AuthorizeCheck Orders" <${gmailUser}>`,
+      from: `"drivessure Orders" <${gmailUser}>`,
       to: recipientEmail,
       replyTo: `"${payload.name}" <${payload.email}>`,
       subject,
@@ -301,7 +301,7 @@ export async function sendOrderEmail(payload: OrderNotificationPayload): Promise
 
     const info = await transporter.sendMail(mailOptions);
     console.log(
-      `[AuthorizeCheck Mailer] Order notification email successfully dispatched to ${recipientEmail}. Message ID: ${info.messageId}`
+      `[drivessure Mailer] Order notification email successfully dispatched to ${recipientEmail}. Message ID: ${info.messageId}`
     );
 
     return {
@@ -310,7 +310,7 @@ export async function sendOrderEmail(payload: OrderNotificationPayload): Promise
     };
   } catch (err: unknown) {
     const errorMessage = err instanceof Error ? err.message : String(err);
-    console.error("[AuthorizeCheck Mailer Error]", errorMessage);
+    console.error("[drivessure Mailer Error]", errorMessage);
     return {
       success: false,
       error: errorMessage,

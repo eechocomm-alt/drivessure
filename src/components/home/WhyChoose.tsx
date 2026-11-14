@@ -34,7 +34,7 @@ export function WhyChoose() {
             Institutional Advantage
           </span>
           <h2 className="font-headline-xl text-headline-xl text-on-surface mt-space-2xs tracking-tight">
-            Why Choose AuthorizeCheck
+            Why Choose drivessure
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
             Built for private sellers and dealers who refuse to list blind.

@@ -106,7 +106,7 @@ export function WhyBuyers() {
             <div className="my-space-lg p-space-md rounded-lg bg-surface-container-low flex items-center justify-between">
               <div>
                 <span className="font-label-md text-label-md text-on-surface-variant uppercase">
-                  AuthorizeCheck Health Index
+                  drivessure Health Index
                 </span>
                 <div className="flex items-baseline gap-space-xs mt-1">
                   <span className="font-display-hero text-[42px] leading-none text-on-surface font-black">

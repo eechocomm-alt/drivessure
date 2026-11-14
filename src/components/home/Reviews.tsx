@@ -16,7 +16,7 @@ const reviews = [
     plate: { text: "VW GOLF", className: "bg-[#FFD200] text-black" },
     savings: { text: "LISTED WITH PROOF", className: "bg-tertiary-container text-tertiary-fixed" },
     title: "“Disclosed a historic write-off before listing”",
-    body: "I purchased a vehicle check before listing my Golf. AuthorizeCheck pulled archival Copart photos showing a historic rear impact. I disclosed it upfront and sold without a later dispute.",
+    body: "I purchased a vehicle check before listing my Golf. drivessure pulled archival Copart photos showing a historic rear impact. I disclosed it upfront and sold without a later dispute.",
     meta: { icon: "photo_camera", label: "Salvage Record #CP-849200", badge: "MIAFTR Direct", badgeClass: "text-on-tertiary-container" },
     author: { initials: "MT", name: "Marcus T.", sub: "Manchester • Verified Seller", avatar: "bg-primary text-white" },
     when: "2 days ago",
@@ -108,7 +108,7 @@ export function Reviews() {
             Real Reviews from Trusted Sellers
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
-            Discover how AuthorizeCheck helps sellers disclose history, clear
+            Discover how drivessure helps sellers disclose history, clear
             finance, and sell with documented proof.
           </p>
         </div>

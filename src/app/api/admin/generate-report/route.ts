@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     const order = await createOrder({
       customerName: "Admin Generated Report",
-      customerEmail: "admin-generated@authorizecheck.local",
+      customerEmail: "admin-generated@drivessure.local",
       regNumber: cleanRegNumber,
       planId: "full",
       planName: "Full Comprehensive",
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const filename = `AuthorizeCheck-Report-${cleanRegNumber}.pdf`;
+    const filename = `drivessure-Report-${cleanRegNumber}.pdf`;
     const pdfBase64 = result.pdfBuffer ? result.pdfBuffer.toString("base64") : undefined;
 
     return NextResponse.json({

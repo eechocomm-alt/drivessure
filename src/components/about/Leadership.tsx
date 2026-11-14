@@ -12,7 +12,7 @@ const team = [
   {
     name: "Dr. Aris Thorne",
     role: "Chief Technology Officer",
-    bio: "PhD in High-Throughput Distributed Systems (Cambridge). Architect of AuthorizeCheck’s asynchronous querying engine connecting to DVLA and PNC node networks.",
+    bio: "PhD in High-Throughput Distributed Systems (Cambridge). Architect of drivessure’s asynchronous querying engine connecting to DVLA and PNC node networks.",
     badgeIcon: "lock",
     badge: "Fintech Security Specialist",
     image:

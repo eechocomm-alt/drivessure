@@ -81,7 +81,7 @@ export async function sendCustomerReportEmail(
           <!-- Footer -->
           <tr>
             <td style="background-color: #f8f9ff; padding: 20px 32px; border-top: 1px solid #e1e8f5; text-align: center; font-size: 11px; color: #75777e;">
-              <p style="margin: 0 0 6px;">&copy; ${new Date().getFullYear()} AuthorizeCheck. All rights reserved.</p>
+              <p style="margin: 0 0 6px;">&copy; ${new Date().getFullYear()} drivessure. All rights reserved.</p>
               <p style="margin: 0;">If you have any questions about your report, reply directly to this email.</p>
             </td>
           </tr>
@@ -98,14 +98,14 @@ Your vehicle check report for ${cleanVrm} (Order #${orderId}) has been generated
 Your full PDF report is attached to this email.
 
 ${downloadUrl ? `Direct download link: ${downloadUrl}\n` : ""}
-Thank you for using AuthorizeCheck.
+Thank you for using drivessure.
 `;
 
   // 1. Try Resend if RESEND_API_KEY is set
   if (process.env.RESEND_API_KEY) {
     try {
       const resend = new Resend(process.env.RESEND_API_KEY);
-      const fromEmail = process.env.RESEND_FROM_EMAIL || "AuthorizeCheck <reports@authorizecheck.co.uk>";
+      const fromEmail = process.env.RESEND_FROM_EMAIL || "drivessure <reports@drivessure.co.uk>";
 
       const result = await resend.emails.send({
         from: fromEmail,
@@ -144,7 +144,7 @@ Thank you for using AuthorizeCheck.
       });
 
       const info = await transporter.sendMail({
-        from: `"AuthorizeCheck Reports" <${gmailUser}>`,
+        from: `"drivessure Reports" <${gmailUser}>`,
         to: customerEmail,
         subject,
         html: htmlBody,

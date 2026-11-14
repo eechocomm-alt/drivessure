@@ -14,7 +14,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          AuthorizeCheck Ltd (&quot;AuthorizeCheck&quot;, &quot;we&quot;,
+          drivessure Ltd (&quot;drivessure&quot;, &quot;we&quot;,
           &quot;us&quot;, or &quot;our&quot;) is deeply committed to protecting
           the privacy, accuracy, and security of individuals using our vehicle
           provenance and background verification services across the United
@@ -24,8 +24,8 @@ export function PrivacySections() {
           This document outlines how we collect, process, disclose, and
           safeguard both personal identification information and automotive
           intelligence queries when you interact with{" "}
-          <strong className="text-on-surface">authorizecheck.co.uk</strong>.
-          AuthorizeCheck operates in strict conformity with the{" "}
+          <strong className="text-on-surface">drivessure.co.uk</strong>.
+          drivessure operates in strict conformity with the{" "}
           <strong className="text-on-surface">Data Protection Act 2018</strong>{" "}
           and the{" "}
           <strong className="text-on-surface">
@@ -45,7 +45,7 @@ export function PrivacySections() {
             </span>
             <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
               As a designated Vehicle Identity &amp; Integrity verification
-              pipeline, AuthorizeCheck holds data controller responsibility for
+              pipeline, drivessure holds data controller responsibility for
               direct customer service delivery, and acts as a lawful processor
               regarding UK registry querying.
             </p>
@@ -204,7 +204,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          AuthorizeCheck uses strictly necessary, performance, and operational
+          drivessure uses strictly necessary, performance, and operational
           cookies to keep your active vehicle lookup session secure and remember
           your search state.
         </p>
@@ -280,7 +280,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          To generate reliable automotive audits, AuthorizeCheck cross-references
+          To generate reliable automotive audits, drivessure cross-references
           queries against vetted official and commercial registers under
           statutory or licensed data contracts:
         </p>
@@ -347,7 +347,7 @@ export function PrivacySections() {
             verified
           </span>
           <span className="font-body-sm text-body-sm text-on-surface">
-            We guarantee AuthorizeCheck does not monetize consumer lookup
+            We guarantee drivessure does not monetize consumer lookup
             histories to marketing affiliates or insurance brokers.
           </span>
         </div>
@@ -575,7 +575,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          AuthorizeCheck reserves the prerogative to revise this policy to
+          drivessure reserves the prerogative to revise this policy to
           reflect emerging regulatory standards, ICO directives, or technical
           additions to our registry integrations.
         </p>
@@ -609,7 +609,7 @@ export function PrivacySections() {
               Corporate Headquarters
             </span>
             <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              AuthorizeCheck Ltd
+              drivessure Ltd
               <br />
               10 Fenchurch Avenue, Level 14
               <br />
@@ -631,9 +631,9 @@ export function PrivacySections() {
               </span>
               <a
                 className="text-secondary font-semibold hover:underline"
-                href="mailto:dpo@authorizecheck.co.uk"
+                href="mailto:dpo@drivessure.co.uk"
               >
-                dpo@authorizecheck.co.uk
+                dpo@drivessure.co.uk
               </a>
             </div>
             <div className="flex items-center gap-space-2xs text-body-sm">

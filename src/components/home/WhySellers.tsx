@@ -34,7 +34,7 @@ export function WhySellers() {
               </span>
               <div>
                 <span className="font-headline-sm text-headline-sm block tracking-tight">
-                  AuthorizeCheck™
+                  drivessure™
                 </span>
                 <span className="font-label-md text-label-md text-primary-fixed-dim uppercase tracking-wider">
                   Certified Seller Badge
@@ -67,7 +67,7 @@ export function WhySellers() {
             For Private Sellers &amp; Dealers
           </span>
           <h2 className="font-headline-xl text-headline-xl text-on-surface mt-space-2xs tracking-tight">
-            Why Sellers Use AuthorizeCheck
+            Why Sellers Use drivessure
           </h2>
           <p className="font-body-lg text-body-lg text-on-surface-variant mt-space-sm mb-space-lg">
             Sellers purchase a vehicle check — not a report — to prove honesty

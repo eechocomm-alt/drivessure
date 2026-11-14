@@ -6,9 +6,9 @@ import { ContactStatusBar } from "@/components/contact/ContactStatusBar";
 import { ContactTrust } from "@/components/contact/ContactTrust";
 
 export const metadata: Metadata = {
-  title: "Contact AuthorizeCheck Support",
+  title: "Contact drivessure Support",
   description:
-    "Get in touch with AuthorizeCheck support for vehicle audit questions, registration issues, billing, and fleet underwriting.",
+    "Get in touch with drivessure support for vehicle audit questions, registration issues, billing, and fleet underwriting.",
 };
 
 export default function ContactPage() {

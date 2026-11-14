@@ -59,7 +59,7 @@ export function Engineering() {
               Institutional standards for every private car seller.
             </h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
-              AuthorizeCheck does not rely on third-party resale brokers. We
+              drivessure does not rely on third-party resale brokers. We
               maintain direct fiber-connected ingest pipelines with UK vehicle
               registries, ensuring our customers inspect raw, tamper-proof
               vehicle records.

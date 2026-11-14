@@ -141,7 +141,7 @@ export default function AdminOrdersPage() {
           <div>
             <div className="flex items-center gap-2">
               <span className="font-label-md text-label-md text-secondary uppercase font-bold tracking-widest">
-                AuthorizeCheck Control Center
+                drivessure Control Center
               </span>
               <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-primary text-white">
                 ADMIN

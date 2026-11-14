@@ -98,7 +98,7 @@ export function PrivacySidebar() {
           </span>
         </div>
         <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-          AuthorizeCheck strictly operates as a certified intelligence provider.
+          drivessure strictly operates as a certified intelligence provider.
           We do not sell, rent, or trade your personal information with car
           dealerships, broker networks, or third-party lead generation firms.
         </p>
