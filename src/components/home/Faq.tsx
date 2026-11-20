@@ -1,7 +1,7 @@
 const faqs = [
   {
-    q: "What is drivessure and how does it work?",
-    a: "drivessure is an institutional UK vehicle provenance intelligence platform. When you input a registration mark, our secure API immediately interrogates the DVLA, Police National Computer (PNC), MIAFTR (Motor Insurers Anti-Fraud and Theft Register), Experian, and salvage auction repositories to deliver an exhaustive forensic dossier on the vehicle's past.",
+    q: "What is vehiclesure and how does it work?",
+    a: "vehiclesure is an institutional UK vehicle provenance intelligence platform. When you input a registration mark, our secure API immediately interrogates the DVLA, Police National Computer (PNC), MIAFTR (Motor Insurers Anti-Fraud and Theft Register), Experian, and salvage auction repositories to deliver an exhaustive forensic dossier on the vehicle's past.",
     open: true,
   },
   {
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "How can I contact customer support if I have questions about a vehicle?",
-    a: "Our UK-based technical support team is available via live chat and email at support@drivessure.co.uk from 8:00 AM to 8:00 PM GMT Monday through Friday. We can assist with interpreting technical MOT advisories or finance settlement notes.",
+    a: "Our UK-based technical support team is available via live chat and email at support@vehiclesure.co.uk from 8:00 AM to 8:00 PM GMT Monday through Friday. We can assist with interpreting technical MOT advisories or finance settlement notes.",
   },
 ];
 

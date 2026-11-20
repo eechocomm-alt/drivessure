@@ -8,9 +8,9 @@ import { ProvenanceCrisis } from "@/components/about/ProvenanceCrisis";
 import { RegistryMatrix } from "@/components/about/RegistryMatrix";
 
 export const metadata: Metadata = {
-  title: "About drivessure — UK Vehicle Intelligence",
+  title: "About vehiclesure — UK Vehicle Intelligence",
   description:
-    "Learn how drivessure delivers institutional UK vehicle history checks from DVLA, PNC, MIAFTR, and motor finance registers.",
+    "Learn how vehiclesure delivers institutional UK vehicle history checks from DVLA, PNC, MIAFTR, and motor finance registers.",
 };
 
 export default function AboutPage() {

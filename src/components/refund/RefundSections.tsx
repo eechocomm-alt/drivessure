@@ -17,7 +17,7 @@ const eligibility = [
   {
     icon: "flaky",
     title: "Platform Registration Mismatch",
-    body: 'If the drivessure parsing engine matched your input VRM against an incorrect vehicle identity (e.g. system returned details for a Ford Focus when a confirmed BMW was queried) due to an internal index error.',
+    body: 'If the vehiclesure parsing engine matched your input VRM against an incorrect vehicle identity (e.g. system returned details for a Ford Focus when a confirmed BMW was queried) due to an internal index error.',
   },
 ];
 
@@ -36,7 +36,7 @@ const nonRefundable = [
   },
   {
     title: "Third-Party Dealership Negotiation Outcomes",
-    body: "drivessure cannot be held liable if a vehicle seller declines an offer or changes their asking price after an drivessure report has been presented to them.",
+    body: "vehiclesure cannot be held liable if a vehicle seller declines an offer or changes their asking price after an vehiclesure report has been presented to them.",
   },
 ];
 
@@ -59,7 +59,7 @@ export function RefundSections() {
           Overview &amp; Institutional Commitment
         </h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-          At drivessure, we understand that listing a pre-owned vehicle
+          At vehiclesure, we understand that listing a pre-owned vehicle
           involves significant disclosure and financial exposure. Our mission
           is to deliver unequivocal clarity via authentic DVLA, MIAFTR
           (write-off and stolen records), and Experian-backed automotive
@@ -166,7 +166,7 @@ export function RefundSections() {
           Non-Refundable Situations
         </h2>
         <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-          drivessure incurs instantaneous data query costs across UK
+          vehiclesure incurs instantaneous data query costs across UK
           governmental and private financial registries. Consequently, refunds
           cannot be issued in the following instances:
         </p>
@@ -278,9 +278,9 @@ export function RefundSections() {
                 Send your claim to{" "}
                 <a
                   className="text-secondary underline font-medium"
-                  href="mailto:refunds@drivessure.co.uk"
+                  href="mailto:refunds@vehiclesure.co.uk"
                 >
-                  refunds@drivessure.co.uk
+                  refunds@vehiclesure.co.uk
                 </a>{" "}
                 or use our fast-track submission card below.
               </p>
@@ -366,7 +366,7 @@ export function RefundSections() {
         <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
           All refunds are returned solely to the original method used during
           checkout to prevent anti-money laundering (AML) compliance
-          infringements. drivessure charges zero administrative fees on
+          infringements. vehiclesure charges zero administrative fees on
           approved refunds.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-sm">
@@ -440,9 +440,9 @@ export function RefundSections() {
               </span>
               <a
                 className="font-headline-sm text-headline-sm text-secondary hover:underline font-semibold"
-                href="mailto:refunds@drivessure.co.uk"
+                href="mailto:refunds@vehiclesure.co.uk"
               >
-                refunds@drivessure.co.uk
+                refunds@vehiclesure.co.uk
               </a>
               <span className="font-body-sm text-body-sm text-on-surface-variant mt-1">
                 Mon-Fri 8:00am – 8:00pm GMT

@@ -4,9 +4,9 @@ import { TermsSections } from "@/components/terms/TermsSections";
 import { TermsSidebar } from "@/components/terms/TermsSidebar";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions — drivessure",
+  title: "Terms & Conditions — vehiclesure",
   description:
-    "drivessure Terms & Conditions covering vehicle history checks, payment, £40,000 data indemnity guarantee, and UK consumer rights.",
+    "vehiclesure Terms & Conditions covering vehicle history checks, payment, £40,000 data indemnity guarantee, and UK consumer rights.",
 };
 
 export default function TermsAndConditionsPage() {

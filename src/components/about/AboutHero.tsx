@@ -16,7 +16,7 @@ export function AboutHero() {
             chevron_right
           </span>
           <span className="font-label-md text-label-md text-secondary font-semibold">
-            About drivessure
+            About vehiclesure
           </span>
         </nav>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-end">
@@ -30,7 +30,7 @@ export function AboutHero() {
               </span>
             </div>
             <h1 className="font-headline-xl text-headline-xl text-primary tracking-tight">
-              About drivessure — <br className="hidden sm:inline" />
+              About vehiclesure — <br className="hidden sm:inline" />
               <span className="text-secondary">UK Vehicle Intelligence</span>
             </h1>
             <p className="font-body-xl text-body-xl text-on-surface-variant max-w-2xl">

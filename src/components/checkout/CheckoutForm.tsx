@@ -314,7 +314,7 @@ export function CheckoutForm() {
               type="checkbox"
             />
             <span className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              I am purchasing a vehicle check from drivessure. The full
+              I am purchasing a vehicle check from vehiclesure. The full
               report will be emailed within 3–4 hours using the provided
               payment method. I acknowledge that once the report is delivered,
               I am not eligible for a refund.

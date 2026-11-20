@@ -1,6 +1,6 @@
-# drivessure — Automated Vehicle Intelligence Platform
+# vehiclesure — Automated Vehicle Intelligence Platform
 
-drivessure is a production-grade UK vehicle history checking web platform built with **Next.js 16 (Turbopack)**, **React 19**, **Tailwind CSS**, and **Puppeteer Core + Sparticuz Chromium**.
+vehiclesure is a production-grade UK vehicle history checking web platform built with **Next.js 16 (Turbopack)**, **React 19**, **Tailwind CSS**, and **Puppeteer Core + Sparticuz Chromium**.
 
 It delivers an end-to-end automated flow from vehicle registration lookup, checkout initialization, payment redirection, live database fetching (via VehicleDataGlobal API), branded 20-page A4 PDF report generation, and instant customer email delivery with a downloadable backup.
 
@@ -39,7 +39,7 @@ It delivers an end-to-end automated flow from vehicle registration lookup, check
 ## Features
 
 - **Automated Flow**: No manual intervention required under standard payment redirects.
-- **20-Page Institutional PDF Dossier**: Matches the existing high-end drivessure HTML design, formatted for A4 print with background graphics and cover page.
+- **20-Page Institutional PDF Dossier**: Matches the existing high-end vehiclesure HTML design, formatted for A4 print with background graphics and cover page.
 - **Strict Data Mapping & Safety**: Any missing upstream data point automatically defaults to `"N/A"` or `"No records found"`, preventing broken layouts or crashes.
 - **Dual Email Engine**: Delivers customer PDF reports via Resend or Google SMTP (Nodemailer), plus dispatches order notifications to `checkauthorize@gmail.com`.
 - **Vercel Serverless Ready**: Engineered specifically for Vercel's serverless environment with `@sparticuz/chromium`, `maxDuration = 60` configuration, and `@vercel/blob` integration.
@@ -78,7 +78,7 @@ VDG_DATA_PACKAGE=VehicleData
 
 # 3. Resend Email Delivery (Optional)
 # RESEND_API_KEY=re_xxxxxxxxxxxx
-# RESEND_FROM_EMAIL=drivessure <reports@drivessure.co.uk>
+# RESEND_FROM_EMAIL=vehiclesure <reports@vehiclesure.co.uk>
 
 # 4. Vercel Blob Storage (Recommended for Vercel deployment)
 # BLOB_READ_WRITE_TOKEN=vercel_blob_rw_xxxxxxxxxxxx

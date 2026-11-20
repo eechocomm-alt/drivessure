@@ -3,9 +3,9 @@ import { Suspense } from "react";
 import { CheckoutForm } from "@/components/checkout/CheckoutForm";
 
 export const metadata: Metadata = {
-  title: "Checkout — drivessure",
+  title: "Checkout — vehiclesure",
   description:
-    "Complete your drivessure vehicle inspection order and proceed to secure payment.",
+    "Complete your vehiclesure vehicle inspection order and proceed to secure payment.",
 };
 
 export default function CheckoutPage() {

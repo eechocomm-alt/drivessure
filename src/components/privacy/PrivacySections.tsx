@@ -14,7 +14,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          drivessure Ltd (&quot;drivessure&quot;, &quot;we&quot;,
+          vehiclesure Ltd (&quot;vehiclesure&quot;, &quot;we&quot;,
           &quot;us&quot;, or &quot;our&quot;) is deeply committed to protecting
           the privacy, accuracy, and security of individuals using our vehicle
           provenance and background verification services across the United
@@ -24,8 +24,8 @@ export function PrivacySections() {
           This document outlines how we collect, process, disclose, and
           safeguard both personal identification information and automotive
           intelligence queries when you interact with{" "}
-          <strong className="text-on-surface">drivessure.co.uk</strong>.
-          drivessure operates in strict conformity with the{" "}
+          <strong className="text-on-surface">vehiclesure.co.uk</strong>.
+          vehiclesure operates in strict conformity with the{" "}
           <strong className="text-on-surface">Data Protection Act 2018</strong>{" "}
           and the{" "}
           <strong className="text-on-surface">
@@ -45,7 +45,7 @@ export function PrivacySections() {
             </span>
             <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
               As a designated Vehicle Identity &amp; Integrity verification
-              pipeline, drivessure holds data controller responsibility for
+              pipeline, vehiclesure holds data controller responsibility for
               direct customer service delivery, and acts as a lawful processor
               regarding UK registry querying.
             </p>
@@ -204,7 +204,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          drivessure uses strictly necessary, performance, and operational
+          vehiclesure uses strictly necessary, performance, and operational
           cookies to keep your active vehicle lookup session secure and remember
           your search state.
         </p>
@@ -280,7 +280,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          To generate reliable automotive audits, drivessure cross-references
+          To generate reliable automotive audits, vehiclesure cross-references
           queries against vetted official and commercial registers under
           statutory or licensed data contracts:
         </p>
@@ -347,7 +347,7 @@ export function PrivacySections() {
             verified
           </span>
           <span className="font-body-sm text-body-sm text-on-surface">
-            We guarantee drivessure does not monetize consumer lookup
+            We guarantee vehiclesure does not monetize consumer lookup
             histories to marketing affiliates or insurance brokers.
           </span>
         </div>
@@ -575,7 +575,7 @@ export function PrivacySections() {
           </h2>
         </div>
         <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          drivessure reserves the prerogative to revise this policy to
+          vehiclesure reserves the prerogative to revise this policy to
           reflect emerging regulatory standards, ICO directives, or technical
           additions to our registry integrations.
         </p>
@@ -609,7 +609,7 @@ export function PrivacySections() {
               Corporate Headquarters
             </span>
             <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              drivessure Ltd
+              vehiclesure Ltd
               <br />
               10 Fenchurch Avenue, Level 14
               <br />
@@ -631,9 +631,9 @@ export function PrivacySections() {
               </span>
               <a
                 className="text-secondary font-semibold hover:underline"
-                href="mailto:dpo@drivessure.co.uk"
+                href="mailto:dpo@vehiclesure.co.uk"
               >
-                dpo@drivessure.co.uk
+                dpo@vehiclesure.co.uk
               </a>
             </div>
             <div className="flex items-center gap-space-2xs text-body-sm">

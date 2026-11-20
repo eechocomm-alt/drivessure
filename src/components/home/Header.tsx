@@ -129,7 +129,7 @@ export function Header() {
           <Link className="flex items-center shrink-0" href="/">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              alt="drivessure"
+              alt="vehiclesure"
               className="h-11 sm:h-12 w-auto max-w-[220px] object-contain object-left"
               src="/logo.png"
             />

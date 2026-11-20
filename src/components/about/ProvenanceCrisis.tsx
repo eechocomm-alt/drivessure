@@ -21,7 +21,7 @@ export function ProvenanceCrisis() {
             rampant.
           </p>
           <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-            drivessure was founded in London by automotive software
+            vehiclesure was founded in London by automotive software
             architects and former fraud intelligence analysts. We replaced
             antiquated gov-portal scrapers and predatory paid-report upsells with
             institutional-grade data ingestion, verifying every chassis across
@@ -139,7 +139,7 @@ export function ProvenanceCrisis() {
                 fact_check
               </span>
               <p className="font-body-sm text-body-sm text-on-surface-variant">
-                drivessure reconciles all 4 risk vectors directly against
+                vehiclesure reconciles all 4 risk vectors directly against
                 the authoritative sovereign registers.
               </p>
             </div>

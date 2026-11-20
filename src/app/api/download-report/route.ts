@@ -63,7 +63,7 @@ export async function GET(request: NextRequest) {
       status: 200,
       headers: {
         "Content-Type": "application/pdf",
-        "Content-Disposition": `attachment; filename="drivessure-Report-${order.regNumber}.pdf"`,
+        "Content-Disposition": `attachment; filename="vehiclesure-Report-${order.regNumber}.pdf"`,
       },
     });
   } catch (err: unknown) {

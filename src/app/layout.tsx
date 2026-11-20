@@ -6,7 +6,7 @@ import { ToastProvider } from "@/components/ui/Toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "drivessure — UK Vehicle History Reports",
+  title: "vehiclesure — UK Vehicle History Reports",
   description:
     "Purchase a vehicle check by registration number. Mileage, MOT, write-off, finance, and stolen vehicle checks from official UK data sources. Your report is emailed within 3–4 hours.",
 };

@@ -13,7 +13,7 @@ export function ContactSidebar() {
 
   async function copyEmail() {
     try {
-      await navigator.clipboard.writeText("support@drivessure.co.uk");
+      await navigator.clipboard.writeText("support@vehiclesure.co.uk");
       setCopied(true);
       window.setTimeout(() => setCopied(false), 2000);
     } catch {
@@ -51,7 +51,7 @@ export function ContactSidebar() {
                 Email Inquiries
               </div>
               <div className="font-label-lg text-label-lg text-on-surface truncate">
-                support@drivessure.co.uk
+                support@vehiclesure.co.uk
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ export function ContactSidebar() {
           </span>
         </div>
         <p className="font-body-md text-body-md text-on-surface leading-relaxed">
-          <strong>drivessure Ltd.</strong>
+          <strong>vehiclesure Ltd.</strong>
           <br />
           10 Fenchurch Avenue, City of London
           <br />

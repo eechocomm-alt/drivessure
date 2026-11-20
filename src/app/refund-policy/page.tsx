@@ -5,9 +5,9 @@ import { RefundSections } from "@/components/refund/RefundSections";
 import { RefundSidebar } from "@/components/refund/RefundSidebar";
 
 export const metadata: Metadata = {
-  title: "Refund Policy & Guarantee — drivessure",
+  title: "Refund Policy & Guarantee — vehiclesure",
   description:
-    "drivessure refund policy covering eligibility, exclusions, timelines, payment method refunds, and how to submit a refund claim.",
+    "vehiclesure refund policy covering eligibility, exclusions, timelines, payment method refunds, and how to submit a refund claim.",
 };
 
 export default function RefundPolicyPage() {

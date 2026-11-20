@@ -43,7 +43,7 @@ export function AdminGenerateReport() {
       setAuthenticated(true);
       setOrderId(data.orderId);
 
-      const filename = data.filename || `drivessure-Report-${regNumber.trim().toUpperCase()}.pdf`;
+      const filename = data.filename || `vehiclesure-Report-${regNumber.trim().toUpperCase()}.pdf`;
       setDownloadFilename(filename);
 
       let targetUrl = data.downloadUrl;
@@ -90,7 +90,7 @@ export function AdminGenerateReport() {
           <div>
             <div className="flex items-center gap-2">
               <span className="font-label-md text-label-md text-secondary uppercase font-bold tracking-widest">
-                drivessure Control Center
+                vehiclesure Control Center
               </span>
               <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-primary text-white">ADMIN</span>
             </div>
@@ -171,7 +171,7 @@ export function AdminGenerateReport() {
               <a
                 className="w-full h-12 rounded-lg bg-primary text-white font-label-md text-label-md font-bold inline-flex items-center justify-center gap-2 hover:bg-primary-container transition-colors"
                 href={downloadUrl}
-                download={downloadFilename || `drivessure-Report-${regNumber.trim().toUpperCase()}.pdf`}
+                download={downloadFilename || `vehiclesure-Report-${regNumber.trim().toUpperCase()}.pdf`}
               >
                 <span className="material-symbols-outlined text-[20px]">download</span>Download PDF report
               </a>

@@ -25,7 +25,7 @@ export async function generateReportForOrder(
   await updateOrderStatus(orderId, "processing");
 
   // Ensure customer payment confirmation email (with 3-4 hour delivery notice) is dispatched
-  if (!order.paymentEmailSentAt && order.customerEmail && !order.customerEmail.includes("@drivessure.local")) {
+  if (!order.paymentEmailSentAt && order.customerEmail && !order.customerEmail.includes("@vehiclesure.local")) {
     sendCustomerPaymentConfirmationEmail({
       orderId,
       customerName: order.customerName,

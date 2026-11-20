@@ -102,9 +102,9 @@ export function TermsSidebar() {
           </p>
           <a
             className="mt-space-2xs inline-flex items-center gap-space-2xs text-secondary font-label-md text-label-md hover:underline"
-            href="mailto:legal@drivessure.co.uk"
+            href="mailto:legal@vehiclesure.co.uk"
           >
-            <span>legal@drivessure.co.uk</span>
+            <span>legal@vehiclesure.co.uk</span>
             <span className="material-symbols-outlined text-[14px]">
               arrow_outward
             </span>
